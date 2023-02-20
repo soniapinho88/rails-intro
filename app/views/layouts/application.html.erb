@@ -10,6 +10,11 @@
   </head>
 
   <body>
+  <div style="backgrounf: black; color:white; padding: 16px">
+    NAVBAR
+    <%= link_to "HOME", root_path, style: "color: yellow" %>
+    <%= link_to "ABOUT", about_path, style: "color: yellow" %>
+  </div>
     <%= yield %>
   </body>
 </html>
